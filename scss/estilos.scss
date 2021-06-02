@@ -1,0 +1,102 @@
+//Fuente Logo
+.textologo {
+    font-family: 'Lobster', cursive;
+}
+
+
+// Colores
+$indigo  : #6610f2;
+$indigo2 : #290661;
+$blanco  : rgb(255, 255, 255);
+
+
+// Patrón de colores
+$principal : $indigo2;
+$secundario: $indigo;
+
+// Modificando variables de Bootstrap
+$primary                : $principal;
+$secondary              : $secundario;
+$light                  : $blanco;
+$border-radius          : 40px;
+$btn-border-radius      : 8px;
+$dropdown-border-radius : 0px;
+$headings-margin-bottom : 1;
+$navbar-brand-margin-end: 10px;
+
+
+
+// .nav{
+//     display: flex !important; 
+//     flex-direction: row!important;
+//     justify-content: space-evenly!important;
+//     width: 45% !important;
+
+// }
+
+.navegador {
+    line-height: initial;
+}
+
+.logo {
+    width: 4%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.textologo {
+    font-size      : 32px;
+    height         : 0px;
+    padding        : 0px 0px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.h3 {
+    margin-top   : 0;
+    margin-bottom: 0;
+    font-weight  : 500;
+    line-height  : 1.2;
+}
+
+
+//Imagen principal
+.img-fluid {
+    height         : 415px !important;
+    width          : 400px;
+    object-fit     : none;
+    object-position: left top;
+}
+
+//Navegación
+.drop-down02 {
+    position: relative;
+}
+
+.drop-down02 .sub-menu02 {
+    position: absolute !important;
+    left: 100% !important;
+    top: 0 !important;
+}
+
+// .dropdown-menu[data-bs-popper] {
+//     top: 133% !important;
+//   }
+.udrop{
+    top: 133% !important;
+}
+
+.drop-down02 .dropdown-toggle {
+    padding: .25rem 1.1rem !important;
+}
+
+@media screen and (max-width :767px) {
+    .drop-down02 .sub-menu02 {
+        position: static !important;
+    }
+}
+
+@import "../libs/bootstrap/scss/bootstrap";
