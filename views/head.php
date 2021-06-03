@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="css/estilos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="icon" type="image/png" href="Utilitys/favicontributepage.png" />
+    <link rel="icon" type="image/png" href="Utilitys/favicon.png" />
     <title><?php echo $title; ?></title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
