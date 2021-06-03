@@ -3,12 +3,10 @@
     font-family: 'Lobster', cursive;
 }
 
-
 // Colores
 $indigo  : #6610f2;
 $indigo2 : #290661;
 $blanco  : rgb(255, 255, 255);
-
 
 // Patrón de colores
 $principal : $indigo2;
@@ -24,15 +22,12 @@ $dropdown-border-radius : 0px;
 $headings-margin-bottom : 1;
 $navbar-brand-margin-end: 10px;
 
+// Estilos adiccionales
 
-
-// .nav{
-//     display: flex !important; 
-//     flex-direction: row!important;
-//     justify-content: space-evenly!important;
-//     width: 45% !important;
-
-// }
+.img-thumbnail {
+    border-radius: 0px;
+    border       : 0px;
+}
 
 .navegador {
     line-height: initial;
@@ -51,7 +46,7 @@ $navbar-brand-margin-end: 10px;
     height         : 0px;
     padding        : 0px 0px;
     text-decoration: none;
-    color: black;
+    color          : black;
 
 }
 
@@ -78,14 +73,11 @@ $navbar-brand-margin-end: 10px;
 
 .drop-down02 .sub-menu02 {
     position: absolute !important;
-    left: 100% !important;
-    top: 0 !important;
+    left    : 100% !important;
+    top     : 0 !important;
 }
 
-// .dropdown-menu[data-bs-popper] {
-//     top: 133% !important;
-//   }
-.udrop{
+.udrop {
     top: 133% !important;
 }
 
