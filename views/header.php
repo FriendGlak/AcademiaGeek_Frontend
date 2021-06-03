@@ -21,7 +21,9 @@
             <div class="row text-center">
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                        <img src="./Utilitys/logo-ag.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
+                        <a href="https://academiageek.co/" target="_blank">
+                            <img src="./Utilitys/logo-ag.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
+                        </a>
                     </div>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quo quae voluptatum animi possimus ea mollitia eaque expedita libero incidunt? Blanditiis facilis quam quisquam quo. Placeat tempore fugiat possimus maxime!
@@ -29,7 +31,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                        <img src="./Utilitys/logo-agileinnova.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
+                        <a href="https://www.agileinnova.org/" target="_blank">
+                            <img src="./Utilitys/logo-agileinnova.png" class="img-thumbnail rounded-0 border-0" alt="Logo AgileInnova">
+                        </a>
                     </div>
                     <p class="mb-0">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis eligendi amet at rerum qui neque, porro, hic vero aperiam delectus, ipsa voluptas aliquid animi. Iste eaque nesciunt qui amet?
@@ -37,7 +41,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                        <img src="./Utilitys/logo-evolution.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
+                        <a href="https://www.e-volution.co/" target="_blank">
+                            <img src="./Utilitys/logo-evolution.png" class="img-thumbnail rounded-0 border-0" alt="Logo Evolution">
+                        </a>
                     </div>
                     <p class="mb-0">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos beatae in ipsa enim quod illo tempora nostrum aperiam facilis distinctio. Eaque, atque nisi eos sed mollitia velit qui quas ab.
@@ -45,7 +51,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                    <img src="./Utilitys/logo-makaia.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
+                    <a href="https://makaia.org/" target="_blank">
+                        <img src="./Utilitys/logo-makaia.png" class="img-thumbnail rounded-0 border-0" alt="Logo Makaia">
+</a>
                     </div>
                     <p class="mb-0">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos beatae in ipsa enim quod illo tempora nostrum aperiam facilis distinctio. Eaque, atque nisi eos sed mollitia velit qui quas ab.
