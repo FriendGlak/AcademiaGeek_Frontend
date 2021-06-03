@@ -1,211 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Bootstrap CSS -->
-    <link href="css/estilos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="icon" type="image/png" href="Utilitys/favicontributepage.png" />
-    <title>Página de homenaje</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="import" href="views/templates/head.html" id="miimport">
-    <script src="js/jquery.js"></script>
-</head>
-
-<body class="bg-light">
-    
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="ejemplo">
-        <div class="container-fluid">
-            <div class="logo">
-                <a class="logo" href="#"><img src="utilitys/logo.png" alt="Logo"></a>
+<header class="page-header bg-secondary">
+    <div class="container pt-3">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-5">
+                <h2 class="text-white">¡Vive la experiencia laboral de la programación!</h2>
+                <p class="text-white-50">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum deleniti perspiciatis reiciendis provident nisi fugiat mollitia inventore exercitationem expedita necessitatibus? Temporibus nobis quo obcaecati vero, consectetur sit itaque, deserunt distinctio debitis molestias placeat perspiciatis non atque aperiam dicta numquam asperiores animi explicabo rem nisi iure et amet molestiae eum? Neque nisi fuga dolor veniam obcaecati eligendi asperiores quos suscipit, excepturi ipsa rem laboriosam quo ullam quas quibusdam necessitatibus odio minima deleniti ex. Impedit, harum repudiandae et similique rem illo nobis, quis sequi a corrupti pariatur officia dolore architecto facere repellendus molestiae fuga laborum? Maiores, id. Aut amet asperiores atque molestias.
+                </p>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ejemplo"
-                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse d-grid gap-2 d-md-block" id="navbarsExample09">
-                <ul class="navbar-nav navegador p-1 me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="textologo active ms-1 " aria-current="page" href="#">Experimental</a>
-                    </li>
-
-                    <!-- Navegación -->
-                    
-                    <div class="collapse navbar-collapse ms-5" id="navbarNavLightDropdown">
-                        <ul class="navbar-nav">
-                            <!--Sprint 1-->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Sprint 1
-                                </a>
-                                <ul class="udrop dropdown-menu dropdown-menu-light"
-                                    aria-labelledby="navbarLightDropdownMenuLink">
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 1
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="/views/formulario_encuesta/form_enc.php">Página Tributo</a></li>
-                                            <li><a class="dropdown-item" href="/views/formulario_encuesta/form_enc.php">Formulario de encuesta</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 2
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Producto Comercial</a></li>
-                                            <li><a class="dropdown-item" href="#">Documentación Técnica</a></li>                                              
-                                        </ul>
-                                    </li>
-
-                                    <li><a class="dropdown-item" href="#">Aplicación</a></li>
-                                </ul>
-                            </li>
-
-                             <!--Sprint 2-->
-                             <li class="nav-item dropdown ms-2">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Sprint 2
-                                </a>
-                                <ul class="udrop dropdown-menu dropdown-menu-light"
-                                    aria-labelledby="navbarLightDropdownMenuLink">
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 1
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Página Tributo</a></li>
-                                            <li><a class="dropdown-item" href="#">Formulario de encuesta</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 2
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Producto Comercial</a></li>
-                                            <li><a class="dropdown-item" href="#">Documentación Técnica</a></li>                                              
-                                        </ul>
-                                    </li>
-
-                                    <li><a class="dropdown-item" href="#">Aplicación</a></li>
-                                </ul>
-                            </li>
-
-                             <!--Sprint 3-->
-                             <li class="nav-item dropdown ms-2">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Sprint 3
-                                </a>
-                                <ul class="udrop dropdown-menu dropdown-menu-light"
-                                    aria-labelledby="navbarLightDropdownMenuLink">
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 1
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Página Tributo</a></li>
-                                            <li><a class="dropdown-item" href="#">Formulario de encuesta</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 2
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Producto Comercial</a></li>
-                                            <li><a class="dropdown-item" href="#">Documentación Técnica</a></li>                                              
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Aplicación</a></li>
-                                </ul>
-                            </li>
-
-                            <!--Sprint 4-->
-                            <li class="nav-item dropdown ms-2">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Sprint 4
-                                </a>
-                                <ul class="udrop dropdown-menu dropdown-menu-light"
-                                    aria-labelledby="navbarLightDropdownMenuLink">
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 1
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Página Tributo</a></li>
-                                            <li><a class="dropdown-item" href="#">Formulario de encuesta</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
-                                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Semana 2
-                                        </a>
-                                        <ul class="dropdown-menu sub-menu02 dropdown-menu-Light"
-                                            aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Producto Comercial</a></li>
-                                            <li><a class="dropdown-item" href="#">Documentación Técnica</a></li>                                              
-                                        </ul>
-                                    </li>
-
-                                    
-
-                                    <li><a class="dropdown-item" href="#">Aplicación</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-
-                    
-                </ul>
-                <form>
-                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                </form>
+            <div class="col-md-5">
+                <img class="ms-3" src="./Utilitys/headerimage.png" alt="xd" />
             </div>
         </div>
-    </nav>
-</div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+        <path fill="#fff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,80C384,75,480,85,576,112C672,139,768,181,864,181.3C960,181,1056,139,1152,122.7C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+
+    <section class="icono_iniciativa bg-white">
+        <div class="container bg-white">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="icon gradient mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Academia Geek</h3>
+                    <p>
+                        Our customizable, block-based build system makes creating your
+                        next project fast and easy!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon gradient mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-smartphone">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg>
+                    </div>
+                    <h3>Makaia</h3>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis eligendi amet at rerum qui neque, porro, hic vero aperiam delectus, ipsa voluptas aliquid animi. Iste eaque nesciunt qui amet?
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon gradient mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Evolution</h3>
+                    <p class="mb-0">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos beatae in ipsa enim quod illo tempora nostrum aperiam facilis distinctio. Eaque, atque nisi eos sed mollitia velit qui quas ab.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
