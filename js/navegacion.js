@@ -27,11 +27,11 @@ $(document).ready(function () {
                 if (e.clickEvent && e.clickEvent.composedPath().some(el => el.classList && el.classList.contains('dropdown-toggle'))) {
                     e.preventDefault();
                 }
-                e.stopPropagation(); // do not need pop in multi level mode
+                e.stopPropagation(); 
             });
         });
     
-        // for hover
+        // Para el hover
         function getDropdown(element) {
             return $bs.Dropdown.getInstance(element) || new $bs.Dropdown(element);
         }
