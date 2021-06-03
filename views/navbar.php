@@ -42,7 +42,7 @@
                                     </li>
 
                                     <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle" href="#"
+                                        <a class="nav-link dropdown-toggle disabled" href="#"
                                             id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
                                             Semana 2
@@ -54,7 +54,7 @@
                                         </ul>
                                     </li>
 
-                                    <li><a class="dropdown-item" href="./adopcion.php">Aplicación</a></li>
+                                    <li><a class="dropdown-item disabled" href="./adopcion.php">Aplicación</a></li>
                                 </ul>
                             </li>
 
