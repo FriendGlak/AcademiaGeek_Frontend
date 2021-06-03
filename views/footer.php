@@ -1,4 +1,4 @@
-<footer class="footer mt-auto py-3 bg-light">
+<footer class="footer mt-auto py-3 bg-secondary">
         <div class="container text-xl-center text-md-center text-xxl-center text-lg-center text-sm-center">
             <span class="text-black-50">©2021 Juan Camilo Velásquez Amarillo
                 <button type="button " class="btn btn-primary"><a href="https://github.com/FriendGlak"></a><svg
