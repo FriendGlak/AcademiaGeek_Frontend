@@ -19,40 +19,34 @@
     <section class="icono_iniciativa bg-white">
         <div class="container bg-white">
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers">
-                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                            <polyline points="2 17 12 22 22 17"></polyline>
-                            <polyline points="2 12 12 17 22 12"></polyline>
-                        </svg>
+                        <img src="./Utilitys/logo-ag.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
                     </div>
-                    <h3>Academia Geek</h3>
                     <p>
-                        Our customizable, block-based build system makes creating your
-                        next project fast and easy!
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quo quae voluptatum animi possimus ea mollitia eaque expedita libero incidunt? Blanditiis facilis quam quisquam quo. Placeat tempore fugiat possimus maxime!
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-smartphone">
-                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
-                        </svg>
+                        <img src="./Utilitys/logo-agileinnova.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
                     </div>
-                    <h3>Makaia</h3>
                     <p class="mb-0">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis eligendi amet at rerum qui neque, porro, hic vero aperiam delectus, ipsa voluptas aliquid animi. Iste eaque nesciunt qui amet?
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
-                        </svg>
+                        <img src="./Utilitys/logo-evolution.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
                     </div>
-                    <h3>Evolution</h3>
+                    <p class="mb-0">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos beatae in ipsa enim quod illo tempora nostrum aperiam facilis distinctio. Eaque, atque nisi eos sed mollitia velit qui quas ab.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon gradient mb-4">
+                    <img src="./Utilitys/logo-makaia.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
+                    </div>
                     <p class="mb-0">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos beatae in ipsa enim quod illo tempora nostrum aperiam facilis distinctio. Eaque, atque nisi eos sed mollitia velit qui quas ab.
                     </p>
