@@ -4,7 +4,9 @@
             <div class="col-md-5">
                 <h2 class="text-white">¡Vive la experiencia laboral de la programación!</h2>
                 <p class="text-white-50">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum deleniti perspiciatis reiciendis provident nisi fugiat mollitia inventore exercitationem expedita necessitatibus? Temporibus nobis quo obcaecati vero, consectetur sit itaque, deserunt distinctio debitis molestias placeat perspiciatis non atque aperiam dicta numquam asperiores animi explicabo rem nisi iure et amet molestiae eum? Neque nisi fuga dolor veniam obcaecati eligendi asperiores quos suscipit, excepturi ipsa rem laboriosam quo ullam quas quibusdam necessitatibus odio minima deleniti ex. Impedit, harum repudiandae et similique rem illo nobis, quis sequi a corrupti pariatur officia dolore architecto facere repellendus molestiae fuga laborum? Maiores, id. Aut amet asperiores atque molestias.
+                    Sumergete en la experiencia total de un bootcamp desarrollado para alimentar y reforzar el conocimiento dentro del desarrollo web. Este curso llamado Desarrollo Web Front-end está enfocado en el desarrollo de proyectos continuos, una participación activa y codificación continua en la cual habrán retos, tanto individuales, como grupales. Todo esto mediante el auto aprendizaje y las clases dictadas por los mentores de la Academia.
+                    <br></br>
+                    Los diferentes modulos del curso están dirigidos a los Fundamentos de Desarrollo Web, tales como el HTML, CSS Y JavaScript Práctico, JavaScript Moderno, NodeJS, ReactJS y finalmente Firebase como servicio de nube.
                 </p>
             </div>
             <div class="col-md-5">
@@ -17,8 +19,8 @@
     </svg>
 
     <section class="icono_iniciativa bg-white">
-        <div class="container bg-white">
-            <div class="row text-center">
+        <div class="container bg-white position-relative" style="height: 400px">
+            <div class="row text-center anim">
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
                         <a href="https://academiageek.co/" target="_blank">
@@ -26,7 +28,7 @@
                         </a>
                     </div>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quo quae voluptatum animi possimus ea mollitia eaque expedita libero incidunt? Blanditiis facilis quam quisquam quo. Placeat tempore fugiat possimus maxime!
+                        Es un campo de entrenamiento para programadores web con el objetivo de encontrar la empleabilidad rápidamente mediante formación técnica y acompañamiento profesional para un correcto desarrollo real tanto para el empleo como para las habilidades diarias.
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -36,7 +38,7 @@
                         </a>
                     </div>
                     <p class="mb-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis eligendi amet at rerum qui neque, porro, hic vero aperiam delectus, ipsa voluptas aliquid animi. Iste eaque nesciunt qui amet?
+                        Un equipo conformado por expertos en el área de la innovación, dispuestos a acompañar el desarrollo de una persona con talento digital, empresa o la aceleración correcta de un startup buscando identificar y potenciar el talento.
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -46,17 +48,17 @@
                         </a>
                     </div>
                     <p class="mb-0">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos beatae in ipsa enim quod illo tempora nostrum aperiam facilis distinctio. Eaque, atque nisi eos sed mollitia velit qui quas ab.
+                        Es una empresa destinada a crear soluciones únicas para sus socios digitales. Todo esto, analizando, estudiando los conceptos de la experiencia de usuario y el diseño de este.
                     </p>
                 </div>
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
-                    <a href="https://makaia.org/" target="_blank">
-                        <img src="./Utilitys/logo-makaia.png" class="img-thumbnail rounded-0 border-0" alt="Logo Makaia">
-</a>
+                        <a href="https://makaia.org/" target="_blank">
+                            <img src="./Utilitys/logo-makaia.png" class="img-thumbnail rounded-0 border-0" alt="Logo Makaia">
+                        </a>
                     </div>
                     <p class="mb-0">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos beatae in ipsa enim quod illo tempora nostrum aperiam facilis distinctio. Eaque, atque nisi eos sed mollitia velit qui quas ab.
+                        MAKAIA trabaja través de la cooperación, la tecnología y la innovación para diseñar soluciones que les permitan a las personas y las comunidades responder a los desafíos del entorno.
                     </p>
                 </div>
             </div>
