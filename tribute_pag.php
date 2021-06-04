@@ -1,4 +1,4 @@
-<?php $title = "Tributo";
+<?php $title = "Pagina Tributo";
 require 'views/head.php' ?>
 <?php require 'views/navbar.php' ?>
 <main id="main" class="container-fluid bg-secondary">
