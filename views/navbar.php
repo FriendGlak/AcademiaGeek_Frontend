@@ -20,7 +20,7 @@
                     <div class="collapse navbar-collapse ms-5" id="navbarNavLightDropdown">
                         <ul class="navbar-nav">
                             <!--Sprint 1-->
-                            <li class="nav-item dropdown">
+                            <li class="animnav1 nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Sprint 1
@@ -59,8 +59,8 @@
                             </li>
 
                              <!--Sprint 2-->
-                             <li class="nav-item dropdown ms-2">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
+                             <li class="nav-item dropdown ms-2 animnav1">
+                                <a class="nav-link dropdown-toggle disabled" href="#" id="navbarLightDropdownMenuLink"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Sprint 2
                                 </a>
@@ -98,8 +98,8 @@
                             </li>
 
                              <!--Sprint 3-->
-                             <li class="nav-item dropdown ms-2">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
+                             <li class="nav-item dropdown ms-2 animnav1">
+                                <a class="nav-link dropdown-toggle disabled" href="#" id="navbarLightDropdownMenuLink"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Sprint 3
                                 </a>
@@ -136,8 +136,8 @@
                             </li>
 
                             <!--Sprint 4-->
-                            <li class="nav-item dropdown ms-2">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
+                            <li class="nav-item dropdown ms-2 animnav1">
+                                <a class="nav-link dropdown-toggle disabled" href="#" id="navbarLightDropdownMenuLink"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Sprint 4
                                 </a>
