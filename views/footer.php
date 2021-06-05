@@ -1,5 +1,5 @@
 <footer class="footer mt-auto py-4 bg-secondary">
-    <div class="container text-xl-center text-md-center text-xxl-center text-lg-center text-sm-center p-2">
+    <div class="container w-50 text-xl-center text-md-center text-xxl-center text-lg-center text-sm-center p-2">
         <span class="text-white-50">© 2021 - Todos los derechos reservados - Juan Camilo Velásquez Amarillo
         </span>
         <div class="p-2">
