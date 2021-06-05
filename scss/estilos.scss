@@ -1,10 +1,5 @@
-//Fuente Logo
-.textologo {
-    font-family: 'Lobster', cursive;
-}
-
 //Texto
-.label{
+.label {
     font-weight: 300;
 }
 
@@ -26,13 +21,18 @@ $btn-border-radius      : 8px;
 $dropdown-border-radius : 0px;
 $headings-margin-bottom : 1;
 $navbar-brand-margin-end: 10px;
+$enable-negative-margins: true;
+
+.form-control, .form-select {
+    border-radius: 10px !important;    
+}
 
 
 // Estilos adiccionales
-
 .mx-5 {
-    margin-left: 10rem ;
+    margin-left: 10rem;
 }
+
 
 .card {
     background-color: #6610f2 !important;
@@ -49,25 +49,10 @@ $navbar-brand-margin-end: 10px;
     height: 50px;
 }
 
-.navegador {
-    line-height: initial;
-}
-
 .logo {
-    width: 4%;
-}
-
-.logo img {
-    width: 100%;
-}
-
-.textologo {
-    font-size      : 32px;
-    height         : 0px;
-    padding        : 0px 0px;
-    text-decoration: none;
-    color          : black;
-
+    width        : 220px !important;
+    margin-right : -50px !important;
+    margin-bottom: -13px !important;
 }
 
 .h3 {
@@ -279,6 +264,13 @@ body {
 @media screen and (max-width :767px) {
     .drop-down02 .sub-menu02 {
         position: static !important;
+    }
+}
+
+
+@media screen and (max-width :768px) {
+    .prueba {
+        padding-bottom: 800px !important;
     }
 }
 
