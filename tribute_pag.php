@@ -20,42 +20,42 @@ require 'views/head.php' ?>
                                 <h5 class="card-title text-white">Esta es la linea de tiempo dentro de la vida del Dr.Nikola Tesla</h5>
                                 <div id="content">
                                     <ul class="linea_tiempo">
-                                        <li class="event text-white-50" data-date="10 de julio de 1856">
+                                        <li class="event text-white-50 cardzoom" data-date="10 de julio de 1856">
                                             <h3 class="text-white">Nacimiento</h3>
                                             <p>Nikola Tesla nació, en lo que hoy es Smiljan, en la provincia serbia de Lika, llamada entonces Croacia
                                                 De una familia de 5 hermanos subestimado por su padre, un sacerdote ortodoxo serbio decidió que inventaría algo que asombraría al mundo, inicio con experimentos para aprovechar la fuerza del agua, y la fuerza del viento.
                                             </p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1862">
+                                        <li class="event text-white-50 cardzoom" data-date="1862">
                                             <h3 class="text-white">Gospic</h3>
                                             <p>El padre de Tesla, Milutin Tesla recibe un trabajo de pastor en la ciudad de Gospic a donde traslada con toda su familia y donde Tesla cursa la primaria y primeros estudios.</p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1870">
+                                        <li class="event text-white-50 cardzoom" data-date="1870">
                                             <h3 class="text-white">Educación</h3>
                                             <p>Tesla se traslada a Karlovac, donde completa sus estudios básicos en el Gimnasio de Karlovac y se gradúa un año antes debido a su desempeño académico.
                                             </p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1873">
+                                        <li class="event text-white-50 cardzoom" data-date="1873">
                                             <h3 class="text-white">Colera</h3>
                                             <p>Tesla contrae la enfermedad del Cólera que lo dejó en cama durante apróximadamente 9 meses y en repetidas ocasiones al borde de la muerte.</p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1882">
+                                        <li class="event text-white-50 cardzoom" data-date="1882">
                                             <h3 class="text-white">Trabajo</h3>
                                             <p>Empezó a trabajar en la Continental Edison Company en Francia, además con el sueño de trabajar con Edison en sus propios proyectos.</p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1884">
+                                        <li class="event text-white-50 cardzoom" data-date="1884">
                                             <h3 class="text-white">Estados Unidos</h3>
                                             <p>Llegó por primera vez a Estados Unidos a la ciudad de Nueva York en donde trabajó para Edison en su compañia.</p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1885">
+                                        <li class="event text-white-50 cardzoom" data-date="1885">
                                             <h3 class="text-white">Compañia</h3>
                                             <p>Tesla fundó su propia compañia llamada Tesla Electric Light & Manufacturing.</p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1903">
+                                        <li class="event text-white-50 cardzoom" data-date="1903">
                                             <h3 class="text-white">Wandenclyffe<h3>
                                                     <p>Empieza a realizar experimentos en Wardenclyffe, en los cuales pretendía transmitir grandes cantidades de energía inalambricamente a toda la población de esta zona.</p>
                                         </li>
-                                        <li class="event text-white-50" data-date="1943">
+                                        <li class="event text-white-50 cardzoom" data-date="1943">
                                             <h3 class="text-white">Muerte</h3>
                                             <p>Muere en el hotel Wyndham en la habitación 3327 a los 86 años de edad, muere a causa de una trombosis coronaria.</p>
                                         </li>
