@@ -23,18 +23,21 @@ require 'views/head.php' ?>
                     <h2 class="fw-bold text-center text-black py-1">Formulario de encuesta</h2>
 
                     <!-- Formulario -->
-                    <form action="#">
+                    <form action="#" class="needs-validation" novalidate>
                         <div class="mb-4">
                             <label for="name" class="form-label text-black">Nombre</label>
                             <input type="name" class="form-control" required>
+                            <div class="valid-feedback">¡Que maravilloso nombre!</div>
                         </div>
                         <div class="mb-4">
                             <label for="email" class="form-label text-black">Correo electrónico</label>
                             <input type="email" class="form-control" required>
+                            <div class="valid-feedback">Interesante...</div>
                         </div>
                         <div class="mb-4">
                             <label for="age" class="form-label text-black">Edad</label>
                             <input type="number" class="form-control" required>
+                            <div class="valid-feedback">Uno a uno, todos somos mortales.</div>
                         </div>
                         <div class="mb-4">
                             <label class="text-black" for="floatingInput">¿Qué rol cumples?</label>
@@ -58,24 +61,24 @@ require 'views/head.php' ?>
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label text-black">Pregunta</label>
+                            <label for="exampleInputPassword1" class="form-label text-black">¿Cuál de los siguientes lenguajes de programación te gustaria aprender?</label>
                             <select class="form-select" aria-label="Default select example" required>
                                 <option selected disabled value>Selecciona tu respuesta</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
+                                <option value="1">C</option>
+                                <option value="2">C#</option>
+                                <option value="3">Ruby</option>
                             </select>
                             <div class="invalid-feedback">
                                 Please select a valid state.
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label text-black">Pregunta 2</label>
+                            <label for="exampleInputPassword1" class="form-label text-black">¿Qué desarrollador te gustaria ser?</label>
                             <select class="form-select" aria-label="Default select example" required>
                                 <option selected disabled value>Selecciona tu respuesta</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
+                                <option value="1">Desarrollador Web Front-End</option>
+                                <option value="2">Desarrollador Web Back-End</option>
+                                <option value="3">Desarrollador Full-Stack</option>
                             </select>
                             <div class="invalid-feedback">
                                 Please select a valid state.
