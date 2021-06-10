@@ -8896,6 +8896,10 @@ fieldset:disabled .btn {
   background-color: #290661 !important;
 }
 
+.bg-rosado{
+  background-color: #FEC7D7 !important;
+}
+
 .bg-secondary {
   background-color: #6610f2 !important;
 }
@@ -8930,10 +8934,6 @@ fieldset:disabled .btn {
 
 .bg-white {
   background-color: #fff !important;
-}
-
-.bg-rosado{
-  background-color: #FEC7D7 !important;
 }
 
 .bg-transparent {
