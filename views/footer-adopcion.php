@@ -31,6 +31,7 @@
 <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/navegacion.js"></script>
 <script src="js/validations.js"></script>
+<script src="js/adopcion.js"></script>
 </body>
 
 </html>
