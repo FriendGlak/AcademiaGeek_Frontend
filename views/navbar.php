@@ -26,15 +26,15 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown drop-down02">
-                                        <a class="nav-link dropdown-toggle disabled" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Semana 2
                                         </a>
                                         <ul class="dropdown-menu sub-menu02 dropdown-menu-Light" aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Producto Comercial</a></li>
-                                            <li><a class="dropdown-item" href="#">Documentación Técnica</a></li>
+                                            <li><a class="dropdown-item" href="./product-comercial.php">Producto Comercial</a></li>
+                                            <li><a class="dropdown-item" href="./doc-tec.php">Documentación Técnica</a></li>
                                         </ul>
                                     </li>
-                                    <li><a class="dropdown-item disabled" href="./adopcion.php">Aplicación</a></li>
+                                    <li><a class="dropdown-item" href="./adopcion.php">Aplicación</a></li>
                                 </ul>
                             </li>
                             <!--Sprint 2-->
