@@ -24,8 +24,8 @@ $principal-adop :$rosado;
 // Modificando variables de Bootstrap
 $primary                          : $principal;
 $secondary                        : $secundario;
-$info:          $rosado;
-$warning:       $azul-oscuro;
+$info                             : $rosado;
+$warning                          : $azul-oscuro;
 $blue                             : $azul-oscuro;
 $indigo                           : $gris-rosado;
 $purple                           : $gris;
@@ -49,6 +49,10 @@ $carousel-caption-width           : 50%;
 $carousel-dark-indicator-active-bg: $negro !important;
 $carousel-dark-caption-color      : $negro !important;
 $carousel-dark-control-icon-filter: invert(1) grayscale(100) !important;
+
+
+
+//Favoritos
 
 .form-control,
 .form-select {
