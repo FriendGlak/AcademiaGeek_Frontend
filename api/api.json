@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "categoriaId": "Perro",
+        "raza": "Pastor Alemán",
+        "nombre": "Pascual",
+        "descripcion": "Esta mal",
+        "genero": "Macho",
+        "edad": "6 Meses",
+        "ubicacion": "Se encuentra en robledo cerca a la quintana",
+        "historia": "Tiene el pelo cafe , ademas tiene una patica mala",
+        "personalidad": [
+            "Juguetón",
+            "Tierno",
+            "Cariñoso"
+        ],
+        "imagen": "https://www.elpaisdelosjovenes.com/wp-content/uploads/2015/05/03_02.jpg",
+        "autor": {
+            "id": 1,
+            "name": "Juanito Perez",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 2,
+        "categoriaId": "Perro",
+        "raza": "Labrador",
+        "nombre": "Pedro",
+        "descripcion": "Esta muy feliz",
+        "genero": "Hembra",
+        "edad": "7 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://www.ecured.cu/images/2/24/Bulldog.JPG",
+        "autor": {
+            "id": 2,
+            "name": "Catalina Perez",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 3,
+        "categoriaId": "Gato",
+        "raza": "Danés",
+        "nombre": "Chiquita",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "7 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "http://www.perrosdebusqueda.es/wp-content/uploads/2015/11/Zarpas-herido.jpg",
+        "autor": {
+            "id": 2,
+            "name": "Catalina Perez",
+            "image": "author1.png"
+        }
+    }, {
+        "id": 4,
+        "categoriaId": "Perro",
+        "raza": "Labrador",
+        "nombre": "Pablito",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "7 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://perro.shop/wp-content/uploads/Caniche-Poodle.jpg",
+        "autor": {
+            "id": 2,
+            "name": "Catalina Perez",
+            "image": "author1.png"
+        }
+    }
+]
