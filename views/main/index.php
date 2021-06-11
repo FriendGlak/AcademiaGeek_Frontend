@@ -19,7 +19,7 @@
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
                         <a href="https://academiageek.co/" target="_blank">
-                            <img src="public/Utilitys/logo-ag.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
+                            <img src="public/images/logo-ag.png" class="img-thumbnail rounded-0 border-0" alt="Logo Academia Geek">
                         </a>
                     </div>
                     <p>
@@ -29,7 +29,7 @@
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
                         <a href="https://www.agileinnova.org/" target="_blank">
-                            <img src="public/Utilitys/logo-agileinnova.png" class="img-thumbnail rounded-0 border-0" alt="Logo AgileInnova">
+                            <img src="public/images/logo-agileinnova.png" class="img-thumbnail rounded-0 border-0" alt="Logo AgileInnova">
                         </a>
                     </div>
                     <p class="mb-0">
@@ -39,7 +39,7 @@
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
                         <a href="https://www.e-volution.co/" target="_blank">
-                            <img src="public/Utilitys/logo-evolution.png" class="img-thumbnail rounded-0 border-0" alt="Logo Evolution">
+                            <img src="public/images/logo-evolution.png" class="img-thumbnail rounded-0 border-0" alt="Logo Evolution">
                         </a>
                     </div>
                     <p class="mb-0">
@@ -49,7 +49,7 @@
                 <div class="col-md-3">
                     <div class="icon gradient mb-4">
                         <a href="https://makaia.org/" target="_blank">
-                            <img src="public/Utilitys/logo-makaia.png" class="img-thumbnail rounded-0 border-0" alt="Logo Makaia">
+                            <img src="public/images/logo-makaia.png" class="img-thumbnail rounded-0 border-0" alt="Logo Makaia">
                         </a>
                     </div>
                     <p class="mb-0">

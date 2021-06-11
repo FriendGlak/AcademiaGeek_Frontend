@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <img class="ms-3" src="<?php echo constant('URL'); ?>public/Utilitys/headerimage.png" alt="xd" />
+                <img class="ms-3" src="<?php echo constant('URL'); ?>public/images/headerimage.png" alt="xd" />
             </div>
         </div>
     </div>

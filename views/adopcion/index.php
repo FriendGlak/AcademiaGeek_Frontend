@@ -20,21 +20,21 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
-                <img src="public/Utilitys/Slide1.png" class="d-block w-100" alt="...">
+                <img src="public/images/Slide1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5></h5>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="public/Utilitys/Slide2.png" class="d-block w-100" alt="...">
+                <img src="public/images/Slide2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Encuentra tu amigo fiel</h5>
                     <p>Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida. Si estás pensando en tener un nuevo integrante en tu familia; ¡estás en el lugar correcto!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="public/Utilitys/Slide3.png" class="d-block w-100" alt="...">
+                <img src="public/images/Slide3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Crea una nueva historia</h5>
                     <p>Adoptar puede ser una de las experiencias más grandiosas de tu vida, donde compartirás bellos momentos con estos amiguitos fieles, tiernos y llenos de amor para regalar.</p>

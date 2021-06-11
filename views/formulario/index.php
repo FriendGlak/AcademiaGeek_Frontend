@@ -27,7 +27,7 @@
                     </div>
                     <div class="col bg-white p-5 rounded-end">
                         <div class="text-center">
-                            <img src="public/Utilitys/Logo2.png" width="150" alt="" srcset="">
+                            <img src="public/images/Logo2.png" width="150" alt="" srcset="">
                         </div>
 
                         <h2 class="fw-bold text-center text-black py-1">Formulario de encuesta</h2>
