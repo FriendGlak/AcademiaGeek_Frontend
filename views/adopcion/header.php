@@ -18,4 +18,7 @@
 </head>
 
 <body class="bg-light">
+    <script>           
+        const URL = "<?php echo constant('URL'); ?>"
+    </script>
     <?php require 'views/items/navbars/navbar-adopcion.php' ?>

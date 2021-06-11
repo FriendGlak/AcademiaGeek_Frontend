@@ -30,8 +30,8 @@
                                             Semana 2
                                         </a>
                                         <ul class="dropdown-menu sub-menu02 dropdown-menu-Light" aria-labelledby="navbarLightDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>tributo">Producto Comercial</a></li>
-                                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>tributo">Documentación Técnica</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>producto_comercial">Producto Comercial</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>doc_tecnica">Documentación Técnica</a></li>
                                         </ul>
                                     </li>
                                     <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>adopcion">Aplicación</a></li>
