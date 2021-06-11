@@ -1,0 +1,396 @@
+//Texto
+.label {
+    font-weight: 300;
+}
+
+// Colores
+$indigo      : #6610f2;
+$indigo2     : #290661;
+$blanco      : rgb(255, 255, 255);
+$negro       : rgb(0, 0, 0);
+$rosado      : #FEC7D7 !default;
+$azul-oscuro : #0E172C !default;
+$azul-cyan   : #85D1CE !default;
+$azul-cielo  : #91C1D7 !default;
+$morado-claro: #A786DF !default;
+$gris-rosado : #D9D4E7 !default;
+$gris        : #535353 !default;
+
+// Patrón de colores
+$principal      : $indigo2;
+$secundario     : $indigo;
+$principal-adop :$rosado;
+
+// Modificando variables de Bootstrap
+$primary                          : $principal;
+$secondary                        : $secundario;
+$info:          $rosado;
+$warning:       $azul-oscuro;
+$blue                             : $azul-oscuro;
+$indigo                           : $gris-rosado;
+$purple                           : $gris;
+$pink                             : $principal-adop;
+$red                              : $morado-claro;
+$orange                           : $azul-cielo;
+$cyan                             : $azul-cyan;
+// $success                : $azul-oscuro;
+// $info                   : $azul-cyan ;
+// $danger                 : $rosado;
+// $light                  : $azul-cielo;
+$light                            : $blanco;
+$border-radius                    : 40px;
+$btn-border-radius                : 8px;
+$dropdown-border-radius           : 0px;
+$headings-margin-bottom           : 1;
+$navbar-brand-margin-end          : 10px;
+$enable-negative-margins          : true;
+$carousel-control-icon-width      : 3rem !important;
+$carousel-caption-width           : 50%;
+$carousel-dark-indicator-active-bg: $negro !important;
+$carousel-dark-caption-color      : $negro !important;
+$carousel-dark-control-icon-filter: invert(1) grayscale(100) !important;
+
+.form-control,
+.form-select {
+    border-radius: 10px !important;
+}
+
+// Estilos adiccionales
+.footer {
+    background-color: #fff !important;
+}
+
+.mx-5 {
+    margin-left: 10rem;
+}
+
+.cardzoom {
+    // overflow: hidden;
+    transition: all 1.0s ease;
+}
+
+.cardzoom:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    background-color: #6610f2 !important;
+    border          : 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.img-thumbnail {
+    border-radius: 0px;
+    border       : 0px;
+}
+
+.imgcard1 {
+    width : 50px;
+    height: 50px;
+}
+
+.logo {
+    width        : 220px !important;
+    margin-right : -50px !important;
+    margin-bottom: -13px !important;
+}
+
+.logo-adopet {
+    width        : 80px !important;
+    margin-bottom: -13px !important;
+
+}
+
+.h3 {
+    margin-top   : 0;
+    margin-bottom: 0;
+    font-weight  : 500;
+    line-height  : 1.2;
+}
+
+//Animación nav
+.animnav1 {
+    background:
+        linear-gradient(#6610f2 0 0) 0 100%/var(--d, 0) 3px no-repeat,
+        linear-gradient(#6610f2 0 0) 100% 100%/var(--d, 0) 3px no-repeat;
+    transition: 0.5s;
+}
+
+
+//Animación navbar aplicación
+.d-2 {
+    --b: 4px;
+    /* border length*/
+    --c: 20px;
+    /* the cube perspective */
+
+    --g: calc(var(--c)*0.707);
+    /* 0.707 = cos(45deg) = sin(45deg) */
+
+    color       : #0E172C;
+    transition  : 0.5s;
+    border      : solid transparent;
+    border-width: var(--b) calc(var(--c) + var(--b)) calc(var(--c) + var(--b)) var(--b);
+    background  :
+        linear-gradient(45deg, transparent var(--g), rgba(255, 255, 255, 0.6) 0) right /var(--c) 100%,
+        linear-gradient(-135deg, transparent var(--g), rgba(255, 255, 255, 0.3) 0) bottom /100% var(--c),
+        conic-gradient(from -180deg at top var(--b) left var(--b), currentColor 270deg, transparent 0),
+        conic-gradient(from 0deg at bottom calc(var(--c) + var(--b)) right calc(var(--c) + var(--b)), currentColor 270deg, transparent 0);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    transform        : translate(calc(var(--c)/1), calc(var(--c)/1));
+    clip-path        :
+        polygon(calc(100% - var(--c)) 0%, calc(100% - var(--c)) 0%,
+            0% 0%,
+            0% calc(100% - var(--c)), 0% calc(100% - var(--c)),
+            calc(100% - var(--c)) calc(100% - var(--c)),
+            calc(100% - var(--c)) calc(100% - var(--c)));
+}
+
+.d-2:hover {
+    transform: translate(0, 0);
+    clip-path:
+        polygon(100% var(--c), calc(100% - var(--c)) 0%,
+            0% 0%,
+            0% calc(100% - var(--c)), var(--c) 100%,
+            100% 100%,
+            100% 100%);
+}
+
+.d-3 {
+    --c: 20px;
+    /* the cube perspective */
+
+    --g: calc(var(--c)*0.707);
+    /* 0.707 = cos(45deg) = sin(45deg) */
+
+    border      : solid transparent;
+    border-width: 0 var(--c) var(--c) 0;
+    background  :
+        linear-gradient(45deg, transparent var(--g), rgba(255, 255, 255, 0.6) 0) right /var(--c) 100%,
+        linear-gradient(-135deg, transparent var(--g), rgba(255, 255, 255, 0.3) 0) bottom /100% var(--c);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    transition       : 0.3s, background-color 0.3s 0.3s, color 0.3s 0.3s;
+    transform        : translate(calc(var(--c)/1), calc(var(--c)/1));
+    clip-path        :
+        polygon(calc(100% - var(--c)) 0%, calc(100% - var(--c)) 0%,
+            0% 0%,
+            0% calc(100% - var(--c)), 0% calc(100% - var(--c)),
+            calc(100% - var(--c)) calc(100% - var(--c)),
+            calc(100% - var(--c)) calc(100% - var(--c)));
+}
+
+.d-3:hover {
+    transition      : 0.3s 0.3s, background-color 0.3s, color 0.3s;
+    background-color: #0E172C;
+    color           : #fff;
+    transform       : translate(0, 0);
+    clip-path       :
+        polygon(100% var(--c), calc(100% - var(--c)) 0%,
+            0% 0%,
+            0% calc(100% - var(--c)), var(--c) 100%,
+            100% 100%,
+            100% 100%);
+}
+
+.animnav1:hover {
+    --d: 100%;
+}
+
+//Animación xd
+.anim {
+    animation-name    : bounceInBottom;
+    animation-duration: 2s;
+    position          : absolute;
+    bottom            : 0;
+    top               : 0;
+    right             : 0;
+    left              : 0;
+}
+
+@keyframes bounceInBottom {
+    0% {
+        opacity          : 0;
+        -webkit-transform: translateX(-2000px);
+        transform        : translateX(-2000px);
+    }
+
+    60% {
+        opacity          : 1;
+        -webkit-transform: translateX(30px);
+        transform        : translateX(30px);
+    }
+
+    80% {
+        -webkit-transform: translateX(-10px);
+        transform        : translateX(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform        : translateX(0);
+    }
+}
+
+
+// Línea de tiempo
+body {
+    margin-top: 20px;
+}
+
+.linea_tiempo {
+    border-left               : 3px solid #727cf5;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius   : 4px;
+    background                : rgba(114, 124, 245, 0.09);
+    margin                    : 0 auto;
+    letter-spacing            : 0.2px;
+    position                  : relative;
+    line-height               : 1.4em;
+    font-size                 : 1.03em;
+    padding                   : 50px;
+    list-style                : none;
+    text-align                : left;
+    max-width                 : 40%;
+}
+
+@media (max-width: 767px) {
+    .linea_tiempo {
+        max-width: 98%;
+        padding  : 25px;
+    }
+}
+
+.linea_tiempo h1 {
+    font-weight: 300;
+    font-size  : 1.4em;
+}
+
+.linea_tiempo h2,
+.linea_tiempo h3 {
+    font-weight  : 600;
+    font-size    : 1rem;
+    margin-bottom: 10px;
+}
+
+.linea_tiempo .event {
+    border-bottom : 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom : 25px;
+    position      : relative;
+}
+
+@media (max-width: 767px) {
+    .linea_tiempo .event {
+        padding-top: 30px;
+    }
+}
+
+.linea_tiempo .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom : 0;
+    border        : none;
+}
+
+.linea_tiempo .event:before,
+.linea_tiempo .event:after {
+    position: absolute;
+    display : block;
+    top     : 0;
+}
+
+.linea_tiempo .event:before {
+    left       : -207px;
+    content    : attr(data-date);
+    text-align : right;
+    font-weight: 100;
+    font-size  : 0.9em;
+    min-width  : 120px;
+}
+
+@media (max-width: 767px) {
+    .linea_tiempo .event:before {
+        left      : 0px;
+        text-align: left;
+    }
+}
+
+.linea_tiempo .event:after {
+    -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow        : 0 0 0 3px #727cf5;
+    left              : -55.8px;
+    background        : #fff;
+    border-radius     : 50%;
+    height            : 9px;
+    width             : 9px;
+    content           : "";
+    top               : 5px;
+}
+
+@media (max-width: 767px) {
+    .linea_tiempo .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .linea_tiempo {
+    border-left               : 0;
+    text-align                : right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius   : 0;
+    border-bottom-left-radius : 4px;
+    border-top-left-radius    : 4px;
+    border-right              : 3px solid #727cf5;
+}
+
+.rtl .linea_tiempo .event::before {
+    left : 0;
+    right: -170px;
+}
+
+.rtl .linea_tiempo .event::after {
+    left : 0;
+    right: -55.8px;
+}
+
+
+//Imagen principal
+.img-fluid {
+    height         : 415px !important;
+    width          : 400px;
+    object-fit     : none;
+    object-position: left top;
+}
+
+//Navegación
+.drop-down02 {
+    position: relative;
+}
+
+.drop-down02 .sub-menu02 {
+    position: absolute !important;
+    left    : 100% !important;
+    top     : 0 !important;
+}
+
+.udrop {
+    top: 133% !important;
+}
+
+.drop-down02 .dropdown-toggle {
+    padding: .25rem 1.1rem !important;
+}
+
+@media screen and (max-width :767px) {
+    .drop-down02 .sub-menu02 {
+        position: static !important;
+    }
+}
+
+@media screen and (max-width :768px) {
+    .prueba {
+        padding-bottom: 800px !important;
+    }
+}
+
+@import "../libs/bootstrap/scss/bootstrap";
