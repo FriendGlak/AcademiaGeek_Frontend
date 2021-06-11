@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/FriendGlak/AcademiaGeek_Frontend">
-    <img src="Utilitys/logo.png" alt="Logo" width="300" >
+    <img src="public/images/Logo.png" alt="Logo" width="300" >
   </a>
   <p align="center">
     <a href="https://wakatime.com/badge/github/FriendGlak/AcademiaGeek_Frontend" target:"_blank">
