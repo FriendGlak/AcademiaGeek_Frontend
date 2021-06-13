@@ -32,7 +32,7 @@ $('#GetGatos').on('click', () => {
 
 const fetchData = async () => {
     try {
-        const res = await fetch(URL + 'api/api.json')
+        const res = await fetch(URL+ 'api/api.json')
         dataApi = await res.json()
         // console.log(data);
     } catch (error) {
@@ -60,15 +60,6 @@ const dibujarCard = type => {
             </div>
             `
         }
-        // templatePet.querySelector('h1').textContent = mascota.nombre
-        // templatePet.querySelector('h2').textContent = mascota.raza
-        // templatePet.querySelector('h1').textContent = mascota.categoriaId
-        // templatePet.querySelector('img').setAttribute("src", mascota.imagen)
-        // templatePet.querySelector('#petimg').value = mascota.imagen
-        // templatePet.querySelector('.btn-dark').dataset.id = mascota.id //Id por cada boton de cada carta
-
-        // const clone = templatePet.cloneNode(true)
-        // fragment.appendChild(clone)
     });
 
     mascotas.innerHTML = Card
