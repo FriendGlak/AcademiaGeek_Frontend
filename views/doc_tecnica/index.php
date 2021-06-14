@@ -17,25 +17,25 @@
         <header class="text-black fs-3 m-3">Xbox Live</header>
         <ul class="ulnav">
             <li class="animxbox">
-                <a class="nav-link text-decoration-none p-3 text-black" href="#Introduction">Información General</a>
+                <a class=" text-decoration-none p-3 text-black" href="">Información General</a>
             </li>
             <li class="animxbox">
-                <a class="nav-link text-decoration-none p-3 text-black" href="#Program">Unirse a un programa de desarrolladores</a>
+                <a class=" text-decoration-none p-3 text-black" href="">Unirse a un programa de desarrolladores</a>
             </li>
             <li class="animxbox">
-                <a class="nav-link text-decoration-none p-3 text-black" href="#Live">Cómo funciona Xbox Live</a>
+                <a class=" text-decoration-none p-3 text-black" href="">Cómo funciona Xbox Live</a>
             </li>
             <li class="animxbox">
-                <a class="nav-link text-decoration-none p-3 text-black" href="#Cloud">Almacenamiento en la nube</a>
+                <a class=" text-decoration-none p-3 text-black" href="">Almacenamiento en la nube</a>
             </li>
             <li class="animxbox">
-                <a class="nav-link text-decoration-none p-3 text-black" href="#Privacity">Información general sobre privacidad y permisos</a>
+                <a class=" text-decoration-none p-3 text-black" href="">Información general sobre privacidad y permisos</a>
             </li>
             <li class="animxbox">
-                <a class="nav-link text-decoration-none p-3 text-black" href="#Permises">Comprobación de permisos</a>
+                <a class=" text-decoration-none p-3 text-black" href="">Comprobación de permisos</a>
             </li>
             <li class="animxbox">
-                <a class="nav-link text-decoration-none p-3 text-black" href="#References">Referencia</a>
+                <a class=" text-decoration-none p-3 text-black" href="">Referencia</a>
             </li>
         </ul>
     </div>
