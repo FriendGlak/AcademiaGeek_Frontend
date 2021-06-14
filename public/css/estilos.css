@@ -839,6 +839,50 @@ body {
   margin: 0 auto;
 }
 
+.navegacion {
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-top: solid;
+  border-color: #290661;
+  min-width: 290px;
+}
+
+.navegacion a {
+  display: block;
+  padding: 10px 30px;
+  color: #36123d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ulnav {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.linav {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+.animxbox {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #107C10)) left/var(--d, 0%) 100% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0, #107C10)) right/var(--d, 0%) 100% no-repeat;
+  background: linear-gradient(#107C10 0 0) left/var(--d, 0%) 100% no-repeat, linear-gradient(#107C10 0 0) right/var(--d, 0%) 100% no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.animxbox:hover {
+  --d: 100%;
+  color: #28c41a;
+}
+
 @media screen and (max-width: 767px) {
   .drop-down02 .sub-menu02 {
     position: static !important;
