@@ -8,8 +8,4 @@ class Producto_Comercial extends Controllers{
     function render(){
         $this->views->render('producto_comercial/index');
     }
-
-    function saludar(){
-        $this->views->render('producto_comercial/saludar');
-    }
 }
