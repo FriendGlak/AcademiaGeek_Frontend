@@ -2,6 +2,11 @@
   font-weight: 300;
 }
 
+.fontAdop {
+  color: #0E172C;
+  font-family: 'Nunito', sans-serif;
+}
+
 .form-control,
 .form-select {
   border-radius: 10px !important;
@@ -9,6 +14,15 @@
 
 .footer {
   background-color: #fff !important;
+}
+
+.img-oval {
+  width: 200px;
+  height: 200px;
+  left: 7px;
+  top: 0px;
+  background: #290661;
+  border-radius: 50%;
 }
 
 .img-categoria {
@@ -119,7 +133,7 @@
 .cardzoom:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  z-index: 9000;
+  z-index: 1 !important;
 }
 
 .card {

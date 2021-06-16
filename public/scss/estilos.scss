@@ -3,6 +3,13 @@
     font-weight: 300;
 }
 
+//Fuente adopcion
+
+.fontAdop {
+    color      : #0E172C;
+    font-family: 'Nunito', sans-serif;
+}
+
 // Colores
 $indigo      : #6610f2;
 $indigo2     : #290661;
@@ -33,10 +40,6 @@ $pink                             : $principal-adop;
 $red                              : $morado-claro;
 $orange                           : $azul-cielo;
 $cyan                             : $azul-cyan;
-// $success                : $azul-oscuro;
-// $info                   : $azul-cyan ;
-// $danger                 : $rosado;
-// $light                  : $azul-cielo;
 $light                            : $blanco;
 $border-radius                    : 40px;
 $btn-border-radius                : 8px;
@@ -59,6 +62,16 @@ $carousel-dark-control-icon-filter: invert(1) grayscale(100) !important;
 .footer {
     background-color: #fff !important;
 }
+
+.img-oval {
+    width     : 200px;
+    height    : 200px;
+    left      : 7px;
+    top       : 0px;
+    background: #290661;
+    border-radius: 50%;
+}
+
 
 .img-categoria {
     width          : 64px;
@@ -133,7 +146,7 @@ $carousel-dark-control-icon-filter: invert(1) grayscale(100) !important;
 
 .cardzoom:hover {
     transform: scale(1.1);
-    z-index  : 9000;
+    z-index  : 1 !important;
 }
 
 .card {
@@ -717,54 +730,55 @@ body {
 
 .container {
     max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-  }
+    width    : 100%;
+    margin   : 0 auto;
+}
 
 //Documentación ténica
 
-.navegacion{
-    width: 300px;
-    height: 100%;
+.navegacion {
+    width       : 300px;
+    height      : 100%;
     border-right: solid;
-    border-top: solid;
+    border-top  : solid;
     border-color: $primary;
-    min-width: 290px;
+    min-width   : 290px;
 }
 
 .navegacion a {
-    display: block;
-    padding: 10px 30px;
-    color: #36123d;
+    display        : block;
+    padding        : 10px 30px;
+    color          : #36123d;
     text-decoration: none;
-    cursor: pointer;
+    cursor         : pointer;
 }
 
-.ulnav{
-    height: 88%;
-    padding: 0;
+.ulnav {
+    height    : 88%;
+    padding   : 0;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-.linav{
-    color: #4d4e53;
+.linav {
+    color     : #4d4e53;
     border-top: 1px solid;
     list-style: none;
-    position: relative;
-    width: 100%;
+    position  : relative;
+    width     : 100%;
 }
 
 .animxbox {
     background:
-      linear-gradient(#107C10 0 0) left  /var(--d, 0%) 100% no-repeat,
-      linear-gradient(#107C10 0 0) right /var(--d, 0%) 100% no-repeat;
+        linear-gradient(#107C10 0 0) left /var(--d, 0%) 100% no-repeat,
+        linear-gradient(#107C10 0 0) right /var(--d, 0%) 100% no-repeat;
     transition: 0.5s;
-  }
-  .animxbox:hover {
-    --d: 100%;
+}
+
+.animxbox:hover {
+    --d  : 100%;
     color: rgb(40, 196, 26);
-  }
+}
 
 //Media querys
 

@@ -2,8 +2,8 @@
     {
         "id": 1,
         "categoriaId": "Perro",
-        "raza": "Pastor Alemán",
-        "nombre": "Pascual",
+        "raza": "Golden Retriever",
+        "nombre": "Patricio",
         "descripcion": "Esta mal",
         "genero": "Macho",
         "edad": "6 Meses",
@@ -14,7 +14,7 @@
             "Tierno",
             "Cariñoso"
         ],
-        "imagen": "https://www.elpaisdelosjovenes.com/wp-content/uploads/2015/05/03_02.jpg",
+        "imagen": "https://i.imgur.com/KgdlwTz.jpeg",
         "autor": {
             "id": 1,
             "name": "Juanito Perez",
@@ -28,7 +28,7 @@
         "nombre": "Pedro",
         "descripcion": "Esta muy feliz",
         "genero": "Hembra",
-        "edad": "7 Meses",
+        "edad": "21 Meses",
         "ubicacion": "Se encuentra en el poblado",
         "historia": "Tiene el pelo blanco",
         "personalidad": [
@@ -36,7 +36,7 @@
             "Amable",
             "Cariñoso"
         ],
-        "imagen": "https://www.ecured.cu/images/2/24/Bulldog.JPG",
+        "imagen": "https://i.imgur.com/l0XbfcC.jpeg",
         "autor": {
             "id": 2,
             "name": "Catalina Perez",
@@ -46,11 +46,11 @@
     {
         "id": 3,
         "categoriaId": "Gato",
-        "raza": "Danés",
+        "raza": "Exótico",
         "nombre": "Chiquita",
         "descripcion": "Esta muy feliz",
         "genero": "Macho",
-        "edad": "7 Meses",
+        "edad": "17 Meses",
         "ubicacion": "Se encuentra en el poblado",
         "historia": "Tiene el pelo blanco",
         "personalidad": [
@@ -58,20 +58,21 @@
             "Amable",
             "Cariñoso"
         ],
-        "imagen": "http://www.perrosdebusqueda.es/wp-content/uploads/2015/11/Zarpas-herido.jpg",
+        "imagen": "https://i.imgur.com/6TyPo14.jpeg",
         "autor": {
-            "id": 2,
-            "name": "Catalina Perez",
+            "id": 3,
+            "name": "Sandra García",
             "image": "author1.png"
         }
-    }, {
+    },
+    {
         "id": 4,
         "categoriaId": "Perro",
-        "raza": "Labrador",
-        "nombre": "Pablito",
+        "raza": "Cooker",
+        "nombre": "Roberto",
         "descripcion": "Esta muy feliz",
         "genero": "Macho",
-        "edad": "7 Meses",
+        "edad": "4 Meses",
         "ubicacion": "Se encuentra en el poblado",
         "historia": "Tiene el pelo blanco",
         "personalidad": [
@@ -79,10 +80,186 @@
             "Amable",
             "Cariñoso"
         ],
-        "imagen": "https://perro.shop/wp-content/uploads/Caniche-Poodle.jpg",
+        "imagen": "https://i.imgur.com/Y5NDULf.jpeg",
         "autor": {
-            "id": 2,
-            "name": "Catalina Perez",
+            "id": 4,
+            "name": "Sebastian Martín",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 5,
+        "categoriaId": "Perro",
+        "raza": "Salchicha",
+        "nombre": "Patricio",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "12 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/swYbma2.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Clara Lopez",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 6,
+        "categoriaId": "Perro",
+        "raza": "Pastor Collie",
+        "nombre": "Honey",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "12 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/N6oiKAP.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Sebastian Martín",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 7,
+        "categoriaId": "Perro",
+        "raza": "Cocker Spaniel",
+        "nombre": "Bella",
+        "descripcion": "Esta muy feliz",
+        "genero": "Hembra",
+        "edad": "12 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/zai3e8L.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Estefania Muñoz",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 8,
+        "categoriaId": "Gato",
+        "raza": "Bombay",
+        "nombre": "Milu",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "10 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/3vy1M4F.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Rocio Gonzalez",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 9,
+        "categoriaId": "Gato",
+        "raza": "Siberiano",
+        "nombre": "Celeste",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "3 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/lP94uq0.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Rocio Gonzalez",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 10,
+        "categoriaId": "Gato",
+        "raza": "Doméstico",
+        "nombre": "Galán",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "3 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/xGH3Jdd.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Rocio Gonzalez",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 11,
+        "categoriaId": "Gato",
+        "raza": "Maine Conon",
+        "nombre": "Rechonchito",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "15 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/nqlKjjc.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Rocio Gonzalez",
+            "image": "author1.png"
+        }
+    },
+    {
+        "id": 12,
+        "categoriaId": "Gato",
+        "raza": "Escocés",
+        "nombre": "Timidito",
+        "descripcion": "Esta muy feliz",
+        "genero": "Macho",
+        "edad": "5 Meses",
+        "ubicacion": "Se encuentra en el poblado",
+        "historia": "Tiene el pelo blanco",
+        "personalidad": [
+            "Juguetón",
+            "Amable",
+            "Cariñoso"
+        ],
+        "imagen": "https://i.imgur.com/bZ9IOFk.jpeg",
+        "autor": {
+            "id": 4,
+            "name": "Rocio Gonzalez",
             "image": "author1.png"
         }
     }

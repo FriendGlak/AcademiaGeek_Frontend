@@ -1,4 +1,4 @@
-const mascotas = document.getElementById('mascotas')
+const mascotasFavoritas = document.getElementById('mascotasFavoritas')
 const modalDetalles = document.getElementById('modal-body')
 let favoritos = []
 let datosGuardados = JSON.parse(localStorage.getItem('mascotasFavoritas'))
@@ -9,68 +9,62 @@ if (Array.isArray(datosGuardados) && datosGuardados.length) {
     console.log("No hay datos almacenados en el LocalStorage");
 }
 
-let dataApi;
+let dataApi = [];
 
 window.addEventListener('load', () => {
     fetchData()
+    $.detener(() => { dibujarCardFavoritas() }, 1)
+
 })
 
+$.detener = function (callback, seconds) {
+    return window.setTimeout(callback, seconds * 1000);
+}
 
-$('#GetPerros').on('click', () => {
-    dibujarCard("Perro")
-})
-
-$('#GetGatos').on('click', () => {
-    dibujarCard("Gato")
-})
 
 const fetchData = async () => {
     try {
         const res = await fetch(URL + 'api/api.json')
         dataApi = await res.json()
-        // console.log(data);
     } catch (error) {
         console.log(error)
     }
 }
 
-let card = ''
-const dibujarCard = type => {
-    card = ""
-    dataApi.forEach(mascota => {
-        if (mascota.categoriaId == type) {
-            card += `
-            <div class="col-12 mb-2 col-md-4 btnDataMascota" data-bs-toggle="modal" data-bs-target="#detallesMascota">
-                <div class="card cardzoom border-bottom-5">
-                    <img src="${mascota.imagen}" alt="" class="img-fluid card-img-top">  
-                    <input type="hidden" value="${mascota.id}">
-                    <div class="card-body card-img-overlay">
-                        <div class="card-tag">
-                            <h5 class="name-mascota text-white">${mascota.nombre}</h5>
-                            <h5 class="categoria-mascota text-white-50">${mascota.raza}</h5>
-                        </div>                      
+let cardFavoritas = ''
+const dibujarCardFavoritas = () => {
+    console.log("Entre pues ");
+    let alfa = []
+    favoritos.forEach(mascota => { alfa.push(dataApi.filter(mascota2 => mascota2.id == mascota.id)[0]) })
+    alfa.forEach(mascota => {
+        cardFavoritas += `
+                <div class="col-12 mb-2 col-md-4 btnDataMascota" data-bs-toggle="modal" data-bs-target="#detallesMascota">
+                    <div class="card cardzoom border-bottom-5">
+                        <img src="${mascota.imagen}" alt="" class="img-fluid card-img-top">  
+                        <input type="hidden" value="${mascota.id}">
+                        <div class="card-body card-img-overlay">
+                            <div class="card-tag">
+                                <h5 class="name-mascota text-white">${mascota.nombre}</h5>
+                                <h5 class="categoria-mascota text-white-50">${mascota.raza}</h5>
+                            </div>                      
+                        </div>
                     </div>
                 </div>
-            </div>
-            `
-        }
-    });
-
-    mascotas.innerHTML = card
-
+                `
+    })
+    mascotasFavoritas.innerHTML = cardFavoritas
     document.querySelectorAll('.btnDataMascota').forEach(boton => {
         boton.addEventListener('click', () => {
-            // console.log(favoritos);
             dibujarDetalleMascota(boton.children[0].children[1].value)
         })
     })
 }
 
+
 let detallesCard = '';
 const dibujarDetalleMascota = idMascota => {
     dataApi.forEach(mascota => {
         if (mascota.id == idMascota) {
-            let urlImgen = getSelectFav(mascota.id);
             detallesCard = `
                 <div id="container">
                     <div class="container-img-details">
@@ -82,12 +76,6 @@ const dibujarDetalleMascota = idMascota => {
                         <div class="details-name-gender">
                             <h4 class="name-details">${mascota.nombre}</h4>
                             <img src="${imgGenero(mascota.genero)}" alt="Female" class="img-gender-details">
-                        </div>
-                        <div class="favorite-details" id="btnfavorite">
-                            <input type="hidden" id="idMascotaVista" value="${mascota.id}">
-                            <div id="cambioImgFav">
-                                <img src="${urlImgen}" alt="Favorito" class="img-favorite-active" id="img-favorite">
-                            </div>
                         </div>
                         </div>
                         <div class="details-race-age">
@@ -145,77 +133,18 @@ const dibujarDetalleMascota = idMascota => {
                 `;
         }
     });
-
     modalDetalles.innerHTML = detallesCard
-
-    $('#btnfavorite').on('click', (e) => {
-        if (addFavorito($('#idMascotaVista').val())) {
-            $('#cambioImgFav').html(`<img src="${URL}public/images/mascotas/corazon-favorito-click.png" alt="Favorito" class="img-favorite-active" id="img-favorite">`)
-        } else {
-            $('#cambioImgFav').html(`<img src="${URL}public/images/mascotas/corazon-favorito.png" alt="Favorito" class="img-favorite-active" id="img-favorite">`)
-        }
-    })
-}
-
-const getSelectFav = idMascota => {
-    let mascota = favoritos.filter(mascota => mascota.id == idMascota)
-    if (Array.isArray(mascota) && mascota.length) {
-        return URL + 'public/images/mascotas/corazon-favorito-click.png'
-    } else {
-        return URL + 'public/images/mascotas/corazon-favorito.png'
-    }
 }
 
 const imgGenero = genero => {
     return genero == "Macho" ? URL + "public/images/mascotas/genero-macho.png" : URL + "public/images/mascotas/genero-hembra.png"
 }
 
-//Agregar mascota a favoritos
-const addFavorito = idMascota => {
-    setMascotaFav(idMascota)
-    let mascota = favoritos.filter(mascota => mascota.id === idMascota)
 
-    return Array.isArray(mascota) && mascota.length ? true : false;
-}
-
-const setMascotaFav = idMascota => {
-    console.log(favoritos);
-    //Instanciamos valores con mascota seleccionada.
-    const mascotafav = {
-        id: idMascota
-        // id: objeto.querySelector('.btn-dark').dataset.id, //Accediendo a la información
-        // nombre: objeto.querySelector('h2').textContent,
-        // categoria: objeto.querySelector('h1').textContent,
-        // imagen: document.querySelector('img').getAttribute('src'),
-        // favorito: false,
-        // cantidad: 1
-    }
-    setFavorito(mascotafav)
-}
-const setFavorito = mascotafav => {
-    if (favoritos.length == 0) { //Validamos que favoritos esté vacío y sí es así, agregar la mascota.
-        saveFavorito(mascotafav)
-    } else { //Sino validamos sí el id de la mascota existe en favoritos
-        //Obtener de la lista la mascota que ya exista en favoritos.
-        let mascota = favoritos.filter(mascota => mascota.id === mascotafav.id)
-        if (Array.isArray(mascota) && mascota.length) {
-            deleteFavorito(mascotafav.id);
-        } else {
-            saveFavorito(mascotafav);
-        }
-    }
-}
-
-const saveFavorito = mascota => {
-    favoritos.push(mascota)
-    localStorage.setItem("mascotasFavoritas", JSON.stringify(favoritos))
-}
-
-const deleteFavorito = idMascota => {
-    favoritos.forEach((mascota, index) => {
-        if (mascota.id === idMascota) {
-            favoritos.splice(index, 1)
-            localStorage.setItem("mascotasFavoritas", JSON.stringify(favoritos))
-        }
-    })
-}
+// const getListaFavoritos = () => {
+//     cardFavoritas = ''
+//     favoritos.forEach (mascota => {
+//         console.log(mascota);
+//         dibujarCardFavoritas(mascota.id)
+//     }) 
+// }

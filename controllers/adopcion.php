@@ -12,4 +12,16 @@ class Adopcion extends Controllers{
     function adopta(){
         $this->views->render('adopcion/adopta');
     }
+
+    function favoritos(){
+        $this->views->render('adopcion/favoritos');
+    }
+
+    function perfil(){
+        $this->views->render('adopcion/perfil');
+    }
+
+    function chat(){
+        $this->views->render('adopcion/chat');
+    }
 }

@@ -31,7 +31,7 @@
 <script src="<?php echo constant('URL'); ?>public/libs/bootstrap/dist/js/bootstrap.min.js?n=<?php echo constant('VERSION'); ?>"></script>
 <script src="<?php echo constant('URL'); ?>public/js/navegacion.js?n=<?php echo constant('VERSION'); ?>"></script>
 <script src="<?php echo constant('URL'); ?>public/js/validations.js?n=<?php echo constant('VERSION'); ?>"></script>
-<script src="<?php echo constant('URL'); ?>public/js/adopcion.js?n=<?php echo constant('VERSION'); ?>"></script>
+
 </body>
 
 </html>

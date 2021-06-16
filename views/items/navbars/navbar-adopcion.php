@@ -9,21 +9,39 @@
                 <ul class="navbar-nav p-1 me-auto mb-2 mb-lg-0">
                     <!-- Navegación -->
                     <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-                        <ul class="navbar-nav nav-links">
+                        <ul class="navbar-nav nav-links me-auto ">
                             <!--Adopta-->
-                            <li class="nav-item  d-2">
-                                <a class="nav-link" href="<?php echo constant('URL'); ?>adopcion/adopta" id="navbarLightDropdownMenuLink" role="button"  aria-expanded="false">
+
+                            <li class="nav-item">
+                                <a class="nav-link fontAdop" href="<?php echo constant('URL'); ?>adopcion/adopta" id="navbarLightDropdownMenuLink" role="button" aria-expanded="false">
                                     Adopta una mascota
                                 </a>
                             </li>
                             <!--Volver a Experimental-->
-                            <li class="nav-item  d-2">
-                                <a class="nav-link" href="<?php echo constant('URL'); ?>main" id="navbarLightDropdownMenuLink" role="button" "aria-expanded="false">
+                            <li class="nav-item">
+                                <a class="nav-link fontAdop" href="<?php echo constant('URL'); ?>main" id="navbarLightDropdownMenuLink" role="button" "aria-expanded=" false">
                                     Volver a Experimental
                                 </a>
                             </li>
+
                         </ul>
-                </ul>
+                        <ul class="navbar-nav ml-auto nav-flex-icons">
+                            <li class="nav-item ps-3">
+                                <a href="<?php echo constant('URL'); ?>adopcion/perfil""><img src=" <?php echo constant('URL'); ?>public/images/mascotas/perfil.png" alt=""></a>
+
+                            </li>
+                            <li class="nav-item ps-3">
+                                <a href="<?php echo constant('URL'); ?>adopcion/favoritos"> <img src="<?php echo constant('URL'); ?>public/images/mascotas/favorito.png" alt=""> </a>
+                            </li>
+
+                            <li class="nav-item ps-3">
+                                <a href="<?php echo constant('URL'); ?>adopcion/chat"> <img src="<?php echo constant('URL'); ?>public/images/mascotas/chat.png" alt=""></a>
+
+                            </li>
+                        </ul>
+
+
+                    </div>
             </div>
 
         </div>
