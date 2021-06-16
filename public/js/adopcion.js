@@ -40,7 +40,7 @@ const dibujarCard = type => {
     dataApi.forEach(mascota => {
         if (mascota.categoriaId == type) {
             card += `
-            <div class="col-12 mb-2 col-md-4 btnDataMascota" data-bs-toggle="modal" data-bs-target="#detallesMascota">
+            <div class="col-12 mb-5 col-md-4 btnDataMascota" data-bs-toggle="modal" data-bs-target="#detallesMascota">
                 <div class="card cardzoom border-bottom-5">
                     <img src="${mascota.imagen}" alt="" class="img-fluid card-img-top">  
                     <input type="hidden" value="${mascota.id}">

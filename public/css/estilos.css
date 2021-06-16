@@ -19,10 +19,19 @@
 .img-oval {
   width: 200px;
   height: 200px;
-  left: 7px;
-  top: 0px;
   background: #290661;
   border-radius: 50%;
+}
+
+.inputImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  opacity: 0;
 }
 
 .img-categoria {
